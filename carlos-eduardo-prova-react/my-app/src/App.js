@@ -1,10 +1,13 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
+import Routes from './Routes';
+import 'bootstrap/dist/css/bootstrap.css';
+
+
 
 export default props => (
   <div className="container">
-    <h1>OI</h1>
-    {/* < Routes /> */}
+    < Routes />
 
   </div>
 )
